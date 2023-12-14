@@ -1,14 +1,43 @@
-# Build and Deploy a Full Stack Social Media App | React JS, Appwrite, Tailwind CSS, React Query
-[![Social Media](https://i.ibb.co/k4BQtdP/Thumbnail.png)](https://youtu.be/_W3R2VwRyF4)
+# SnappyGram社交应用
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
+### 获取应用
 
-## Next.js 13 eBook & Course
-📚 https://resource.jsmastery.pro/nextjs-guide
+```
+git clone https://github.com/Junfeng-Zhang/snappy-gram.git
+```
 
-## Summary
-Build a modern social app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more.
+### 在根目录下新建 .env.local 文件，设置环境变量
 
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+```
+VITE_APPWRITE_URL='https://cloud.appwrite.io/v1'
+VITE_APPWRITE_PROJECT_ID=''
+VITE_APPWRITE_STORAGE_ID=''
+VITE_APPWRITE_DATABASE_ID=''
+VITE_APPWRITE_USER_COLLECTION_ID=''
+VITE_APPWRITE_POST_COLLECTION_ID=''
+VITE_APPWRITE_SAVES_COLLECTION_ID=''
+```
+
+### 将应用程序连接到 AppWrite 后。 运行命令。
+
+```
+npm i
+
+npm run dev
+```
+
+### 项目截图
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Login.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Home.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Explore.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\User.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Saved.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Create.jpg)
+
+![](D:\Project系列-前端\IG_Clone\项目截图\Saved.jpg)
